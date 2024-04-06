@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".DetailActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nama"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Nama"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/kampus"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Kampus"
+        android:textStyle="bold"/>
+
+</LinearLayout>
